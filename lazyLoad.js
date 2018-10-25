@@ -73,4 +73,3 @@ if( window.IntersectionObserver && /(iPhone)/.test(navigator.userAgent) ){
     }
 }
 
-export default lazyLoad;

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./lazyLoad.js"></script>
+    <style>
+        div.con{
+            width: 200px;
+            height: 400px;
+            border: 2px solid red;
+            overflow: auto;;
+        }
+        div{
+            width: 200px;
+            height: 200px;
+            border: 1px solid #ccc;
+        }
+        img{
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+   
+        <div>
+            <img data-src="https://du.hupucdn.com/Air-Foamposite-One-Whiteout.png" alt="">
+        </div>
+        <div>
+            <img data-src="https://du.hupucdn.com/Air-Foamposite-Pro-White-Gucci-GS.png" alt="">
+        </div>
+        <div>
+            <img data-src="https://du.hupucdn.com/Adidas-Ultra-Boost-3pt0-Triple-White-W.png" alt="">
+        </div>
+        <div>
+            <img data-src="https://du.hupucdn.com/news_byte142650byte_4a20d6da20dc4756a68c60519023698b_w500h320.png" alt="">
+        </div>
+        <div>
+            <img data-src="https://du.hupucdn.com/news_byte195982byte_62598d983d9dbcbe6cef1baaa15b00e3_w500h320.png" alt="">
+        </div>
+        <div>
+            <img data-src="https://du.hupucdn.com/Air-Foamposite-One-Wheat.png" alt="">
+        </div>
+        <div>
+            <img data-src="https://du.hupucdn.com/Nike-Air-Force-1-High-Wheat-2016-W.png" alt="">
+        </div>
+    
+    
+    
+    <script>
+        lazyLoad('[data-src]')
+    </script>
+</body>
+</html>
